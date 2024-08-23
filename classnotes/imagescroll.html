@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .bg-image {
+            height: 100vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover; //resize the bg,strech or cut the edges
+            background-attachment: fixed; //image position is fixed within the view or scrolls with its containing block
+            display: flex; //
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 1.5em;
+
+        }
+
+        span {
+            position: fixed;
+            top: 30vh;
+        }
+
+        .img1 {
+            background-image:
+            url('D:/images/1.jpg');
+        }
+
+        .img2 {
+            background-image:
+           url('D:/images/2.jpg');
+        }
+
+        .img3 {
+            background-image:
+            url('D:/images/3.jpg');
+        }
+
+        .img1_data {
+            color: rgb(0, 0, 0);
+            margin-left: 10rem;
+            margin-top: 15rem;
+        }
+    </style>
+</head>
+
+<body>
+    <span class="img1_data">
+        sla  is a leading platform that
+        provides computer science resources and
+        coding challenges for programmers and
+        technology enthusiasts, along with
+        interview and exam preparations for
+        upcoming aspirants.
+    </span>
+    <div class="bg-image img1">
+    </div>
+    <div class="bg-image img2">
+    </div>
+    <div class="bg-image img3">
+    </div>
+</body>
+
+</html>
