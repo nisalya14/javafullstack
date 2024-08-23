@@ -1,0 +1,61 @@
+1. How to comment on HTML tags?
+
+start with <! -- and end with -->
+
+Example:
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- This is a comment -->
+<p>Comment in HTML</p>
+
+
+</body>
+</html>
+
+
+2. How to include abbreviations?
+
+The tag <abbr> was used to include the abbreviation in the Html.
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Abbreviations</h1>
+<p>I'm complete my <abbr title="Bachlor of Engineering">BE</abbr>in 2024</p>
+</body>
+</html>
+
+3. How to create a hyperlink in HTML?
+
+Tag <a> element used to define a link · Use the "href" attribute to define the link address.
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Link</h1>
+<a href="www.google.com">Click</a>
+</body>
+</html>
+
+4.what is the correct way to write an address in an HTML document?
+
+<address> tag was used to write the address of the author of the document.The address content can have the email,phone no, social media of the adhor.
+
+
+<!DOCTYPE>
+<html>
+<body>
+<h1>Address</h1>
+<address>
+Written by <a href="nisalyachandran@gmail.com">NISALYA CHANDRAN</a>.<br>
+Phone No: 9249469575
+Address: kandhaswamy nagar 7th  street,<br>
+ palavakkam,<br>
+ chennai 600 041
+</address>
+</body>
+</html>
