@@ -1,0 +1,28 @@
+#myid{
+
+    text-align: center;
+    color: #00e1ff;
+}
+
+.myid{
+    text-align: center;
+    color: blueviolet;
+    
+}
+
+.back{
+    background-color:lightblue;
+
+}
+h3,h4,p{
+    text-shadow: 2px 2px 4px red;
+    background-color: rgb(127, 255, 144);
+    font-size: 29px;   
+    color:brown;
+}
+.myid2 ,.myid4 ,.myid5{
+color:rgb(20, 190, 220) ;
+text-align: center;
+font-size: 15px;
+text-shadow: 3px 3px 6px blue;
+}
