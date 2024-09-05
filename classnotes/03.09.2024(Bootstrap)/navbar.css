@@ -1,0 +1,20 @@
+.body{
+    background-color: aqua;
+}
+nav{
+    background-color: rgb(85, 187, 185);
+}
+.collapse ul li{
+    justify-content: end;
+}
+.navbar h1{
+    color: rgb(79, 233, 130);
+}
+.nav li a{
+    color: white;
+}
+.nav li a:hover{
+    background-color: aquamarine;
+    color: rgb(119, 0, 255);
+    border-radius: 10px;
+}
