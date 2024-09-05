@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            
+        }
+
+        .header, .footer {
+            background-color: #1b9a9a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            height: 50px;
+        }
+
+        .container {
+            display: flex;
+            flex: 1;
+            padding: 10px;
+            gap: 10px;
+        }
+
+        .sidebar {
+            flex: 1;
+            background-color: #75a626;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            padding-top: 200px;
+        }
+
+        .content-wrapper {
+            display: flex;
+            flex: 3;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .content1 {
+            flex: 1;
+            background-color: #e57e1e;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            
+        }
+
+        .content2 {
+            flex: 1;
+            background-color: #ab3978;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .content3 {
+            flex: 1;
+            background-color: #3949ab;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .content-row {
+            display: flex;
+            flex: 1;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="header">Header</div>
+    <div class="container">
+        <div class="sidebar">Sidebar</div>
+        <div class="content-wrapper">
+            <div class="content1">Content-1</div>
+            <div class="content-row">
+                <div class="content2">Content-2</div>
+                <div class="content3">Content-3</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">Footer</div>
+</body>
+</html>
