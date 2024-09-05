@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    
+    <title>Document</title>
+    <style>
+        ul.pagination{
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+        }
+        ul.pagination li{
+            display: inline;
+        }
+        ul.pagination li a{
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+        ul.pagination li a.active{
+            background-color:rgb(198, 36, 136);
+            color: rgb(224, 161,161);
+        }
+        ul.pagination li a:hover:not(.active)
+        {
+            background-color: rgb(170, 152, 251);
+        }
+    </style>
+</head>
+<body>
+    <h2>Active and Hover pagination</h2>
+    <p>Move the cursoe over the number</p>
+    <ul class="pagination">
+        <li><a href="#">A</a></li>
+        <li><a href="#">1</a></li>
+        <li><a class="active" href="#" >2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">6</a></li>
+        <li><a href="#">7</a></li>
+
+    </ul>
+</body>
+</html>
